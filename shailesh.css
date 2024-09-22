@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px; 
+    
+}
+.h1 {
+    font: size 40px;
+}
+.h2 {
+    text-align:right;
+    
+}
+header {
+    background-color: #333;
+    color: #3627df;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav li {
+    margin-right: 30px;
+ 
+}
+
+nav a {
+    color: #de9595;
+    text-decoration: antiquewhite;
+}
+
+.hero {
+    background-image: url('abstract-round-display-for-product-on-website-in-modern-luxury-background-rendering-with-podium-and-minimal-black-and-gold-glitter-texture-wall-scene-3d-rendering-geometric-shape-black-color-vector.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #570debe0;
+    font-size: 30px;
+}
+.hero p{
+    text-align: right;
+    font-size: 40px;
+    color: #6a12f8;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.products li {
+    margin: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    justify-content: right;
+}
+
+.cart {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.cart ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 10px;
+}
+
+.cart button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cart button:hover {
+    background-color: #e73232;
+}
